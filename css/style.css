@@ -5,8 +5,14 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    margin-bottom: 100px;
+    margin-bottom: 290px;
 }
+
+hr{
+  width: 100%;
+  border-color:rgb(10, 65, 10); 
+}
+
 .wrapper{
   min-height:100%;
 }
@@ -15,20 +21,7 @@ body{
     font-weight: bold;
 }
 
-#ContactMe{
-  background-color:rgb(248, 247, 247);
-  padding:30px;
-  border:3px;
-  border-style:groove;
-  border-color:black;
-}
-
-hr{
-  width: 100%;
-  border-color:rgb(10, 65, 10); 
-}
-
-.contact{
+.contentHeader{
   color: rgb(10, 65, 10);
   font-family: "poppin";
   border-style: groove;
@@ -80,4 +73,30 @@ hr{
   #createdBy{
     font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
     font-size:10px;
+  }
+
+  #contactMe{
+    background-color:rgb(248, 247, 247);
+    padding:30px;
+    border:3px;
+    border-style:groove;
+    border-color:black;
+  }
+
+  #portfolio{
+    background-color:rgb(248, 247, 247);
+    padding:30px 20px;
+    border:3px;
+    border-style:groove;
+    border-color:black;
+    align-content: center;
+  }
+
+  .row img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 100%;
+    padding:1rem;
   }
