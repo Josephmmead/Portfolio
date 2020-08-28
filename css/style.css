@@ -16,6 +16,11 @@ hr{
   border-color:rgb(10, 65, 10); 
 }
 
+p{
+  font-family:'Times New Roman', Times, sans-serif;
+  font-size:16px;
+  text-align:left;
+}
 .wrapper{
   min-height:100%;
 }
