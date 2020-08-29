@@ -1,6 +1,5 @@
 body{
     /* min-height:900px; */
-    
     background-image: url("https://i.pinimg.com/originals/45/3f/14/453f143ad31ed8482ebed9c4084b8059.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -46,8 +45,6 @@ p{
     padding:25px 0px 0px 0px;
     text-align:center;
     background-color:rgb(51, 51, 51);
-    /* box-sizing: border-box; */
-    
 }
 
 .fa {
@@ -118,3 +115,4 @@ p{
     height:100%;
     width: 100%;
   }
+
