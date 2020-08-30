@@ -16,7 +16,7 @@ hr{
 }
 
 p{
-  font-family:'Times New Roman', Times, sans-serif;
+  font-family: 'Tienne', serif;
   font-size:16px;
   text-align:left;
   padding: 40px 0px 0px 0px;
@@ -103,7 +103,7 @@ p{
     padding:30px;
     border:3px;
     border-style:groove;
-    border-color:black;
+    border-color:black
   }
 
   .row img{
