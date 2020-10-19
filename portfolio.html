@@ -44,40 +44,35 @@
             <div class="contentCon">
                 <div id="portfolio">
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-12">
                             <h1 class="contentHeader">Portfolio</h1>
                         </div>
                         <div class="form-group col-md-2"></div>
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0020.JPG"
-                                alt="Rivers of Amsterdam at dusk">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0026.JPG"
-                                alt="Berlin Cathedral">
+                        <div class="col"><img src="css/images/StoryFinder.PNG" alt=" "
+                                onclick=project()>
+                                <h5 class = "protHead" >StoryFinder</h5>
                         </div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0028.JPG"
-                                alt="Palace of Amsterdam">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0058.JPG"
-                                alt="Neuschwanstein Castle">
+                        <div class="col"><img src="css/images/passwordGenerator.png" alt=""
+                                onclick=password()>
+                                <h5 class = "protHead">Password Generator</h5>
                         </div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0074.JPG"
-                                alt="Windmill in Amsterdam">
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6"><img src="css/images/IMG_0070.JPG"
-                                alt="Interior roof of the Berlin Cathedral">
+                        <div class="col"><img src="css/images/Weather.png" alt=""
+                                onclick=weather()>
+                                <h5 class = "protHead" >Weather App</h5>
                         </div>
                     </div>
                 </div>
             </div>
+    </div>
     </div>
     </Main>
 
@@ -91,7 +86,7 @@
                                 <h5>Connect With Me On:</h5>
                             </div>
                         </div>
-                        <div class="row">                           
+                        <div class="row">
                             <div class="col-12">
                                 <a href="https://www.facebook.com/joseph.m.mead" target="_blank"
                                     class="fa fa-facebook"></a>
@@ -122,6 +117,24 @@
         crossorigin="anonymous"></script>
     </div>
     </div>
+
+
+    <script type="text/javascript">
+        function project() {
+            var src = "https://lwallac21.github.io/FinalProject1/";
+            window.open(src);
+        }
+
+        function password() {
+            var src = "https://josephmmead.github.io/passwordGenerator/";
+            widnow.open(src);
+        }
+
+        function weather() {
+            var src = "https://josephmmead.github.io/Weather-App/";
+            widnow.open(src);
+        }
+    </script>
 </body>
 
 </html>

@@ -24,6 +24,13 @@ p{
   padding:10px;
 }
 
+h5{
+  color: rgb(12, 75, 12);
+  font-family: 'Spectral SC', serif;
+  line-height:0%;
+  text-align: center;
+}
+
 #topPara{
   padding: 40px 0px 0px 0px;
 }
@@ -31,7 +38,8 @@ p{
 h6{
   color: rgb(12, 75, 12);
   font-family: 'Spectral SC', serif;
-  line-height:0%
+  line-height:0%;
+  margin: 1rem;
 }
 .wrapper{
   min-height:100%;
@@ -103,7 +111,7 @@ h6{
 
   #portfolio{
     background-color:rgba(248, 247, 247, .9);
-    padding:30px 20px;
+    padding:45px 20px;
     border:3px;
     border-style:groove;
     border-color:black;
